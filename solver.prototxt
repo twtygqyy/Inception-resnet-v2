@@ -1,0 +1,21 @@
+train_net: "./trainnet.prototxt"
+test_net: "./valnet.prototxt"
+test_iter: 500
+test_interval: 100000000
+test_initialization: false
+
+base_lr: 0.072
+lr_policy: "step"
+type: "RMSProp"
+rms_decay: 0.9
+delta: 0.9
+gamma: 0.94
+stepsize: 6663
+max_iter: 666221
+weight_decay: 0.0004
+clip_gradients: 80
+display: 100
+
+snapshot: 10000
+snapshot_prefix: "snapshot/inception_resnet_v2"
+solver_mode: GPU
