@@ -12,7 +12,7 @@ layer {
         contrast_brightness_adjustment: true
         #smooth_filtering: true
         min_side_min: 328
-        min_side_max: 380
+        min_side_max: 480
         max_color_shift: 5
         min_contrast: 0.8
         max_contrast: 1.2

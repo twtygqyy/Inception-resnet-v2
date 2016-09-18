@@ -14,7 +14,7 @@ max_brightness_shift = 5
 
 mirror = true
 
-min_side = 328 ~ 380 and crop by 299x299 for training, min_side = 328 and crop by 299x299 for testing
+min_side = 328 ~ 480 and crop by 299x299 for training, min_side = 328 and crop by 299x299 for testing
 
 init learning rate = 0.072 with RMSProp optimizer (rms_decay = 0.9 delta = 0.9)
 
@@ -33,9 +33,9 @@ clip_gradients = 80
 
 ## Result
 
-Test net output #0: accuracy_top1 = 0.692693
+Test net output #0: accuracy_top1 = 0.709201
 
-Test net output #1: accuracy_top5 = 0.88327
+Test net output #1: accuracy_top5 = 0.892665
 
-The result is far from the performance of original paper, different solver with more iterations is under training right now
+The result is not as good as the performance of original paper, different solver with more iterations is under training right now
 
