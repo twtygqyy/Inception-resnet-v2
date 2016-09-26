@@ -18,7 +18,7 @@ min_side = 328 ~ 480 and crop by 299x299 for training, min_side = 328 and crop b
 
 init learning rate = 0.072 with RMSProp optimizer (rms_decay = 0.9 delta = 0.9)
 
-max_iter = 666221
+max_iter = 1066080
 
 stepsize = 6663
 
@@ -33,9 +33,9 @@ clip_gradients = 80
 
 ## Result
 
-Test net output #0: accuracy_top1 = 0.709201
+Test net output #0: accuracy_top1 = 0.729467
 
-Test net output #1: accuracy_top5 = 0.892665
+Test net output #1: accuracy_top5 = 0.904265
 
 The result is not as good as the performance of original paper, different solver with more iterations is under training right now
 
