@@ -37,5 +37,7 @@ Test net output #0: accuracy_top1 = 0.729467
 
 Test net output #1: accuracy_top5 = 0.904265
 
-The result is not as good as the performance of original paper, different solver with more iterations is under training right now
+Model link: https://drive.google.com/file/d/0B5i4atpKg9EcOGRqUExXZVNxODQ/view?usp=sharing
+
+Different solver with more iterations is under training right now
 
